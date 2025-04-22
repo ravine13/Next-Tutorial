@@ -7,15 +7,19 @@ function Navbar() {
       <Link href="/" className="text-lg text-gray-700 hover:text-blue-600 transition">
         Home
       </Link>
-      <Link href="/counter" className="text-lg text-gray-700 hover:text-blue-600 transition">
-        Counter
+      <Link href="/login" className="text-lg text-gray-700 hover:text-blue-600 transition">
+        Login
       </Link>
-      <Link href="/tours" className="text-lg text-gray-700 hover:text-blue-600 transition">
-        Tours
+      <Link href="/about" className="text-lg text-gray-700 hover:text-blue-600 transition">
+        About
       </Link>
-      <Link href="/actions" className="text-lg text-gray-700 hover:text-blue-600 transition">
-        Actions
+      <Link href="/services" className="text-lg text-gray-700 hover:text-blue-600 transition">
+        Services
       </Link>
+        <Link href="/signup" className="text-blue-600">
+            Sign Up
+        </Link>
+
     </nav>
   );
 }
