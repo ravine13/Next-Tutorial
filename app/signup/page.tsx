@@ -1,6 +1,8 @@
 // app/signup/page.tsx
 import React from 'react';
 
+
+
 const SignUpPage = () => {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
