@@ -1,30 +1,27 @@
-// app/signup/page.tsx
 import React from 'react';
-
-
 
 const SignUpPage = () => {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
             <div className="py-6 px-4">
                 <div className="grid md:grid-cols-2 items-center gap-6 max-w-6xl w-full">
-                    <div className="border border-slate-300 rounded-lg p-6 max-w-md shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] max-md:mx-auto">
+                    <div className="border border-[#1e2d3b] rounded-lg p-6 max-w-md shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] max-md:mx-auto">
                         <form className="space-y-6">
                             <div className="mb-12">
-                                <h3 className="text-slate-900 text-3xl font-semibold">Sign up</h3>
+                                <h3 className="text-[#1e2d3b] text-3xl font-semibold">Sign up</h3>
                                 <p className="text-slate-500 text-sm mt-6 leading-relaxed">
                                     Create an account to start your journey. It's quick and easy!
                                 </p>
                             </div>
 
                             <div>
-                                <label className="text-slate-800 text-sm font-medium mb-2 block">User name</label>
+                                <label className="text-[#1e2d3b] text-sm font-medium mb-2 block">User name</label>
                                 <div className="relative flex items-center">
                                     <input
                                         name="username"
                                         type="text"
                                         required
-                                        className="w-full text-sm text-slate-800 border border-slate-300 pl-4 pr-10 py-3 rounded-lg outline-blue-600"
+                                        className="w-full text-sm text-[#1e2d3b] border border-[#1e2d3b] pl-4 pr-10 py-3 rounded-lg outline-[#FFA726]"
                                         placeholder="Enter user name"
                                     />
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" className="w-[18px] h-[18px] absolute right-4" viewBox="0 0 24 24">
@@ -35,26 +32,26 @@ const SignUpPage = () => {
                             </div>
 
                             <div>
-                                <label className="text-slate-800 text-sm font-medium mb-2 block">Email</label>
+                                <label className="text-[#1e2d3b] text-sm font-medium mb-2 block">Email</label>
                                 <div className="relative flex items-center">
                                     <input
                                         name="email"
                                         type="email"
                                         required
-                                        className="w-full text-sm text-slate-800 border border-slate-300 pl-4 pr-10 py-3 rounded-lg outline-blue-600"
+                                        className="w-full text-sm text-[#1e2d3b] border border-[#1e2d3b] pl-4 pr-10 py-3 rounded-lg outline-[#FFA726]"
                                         placeholder="Enter email"
                                     />
                                 </div>
                             </div>
 
                             <div>
-                                <label className="text-slate-800 text-sm font-medium mb-2 block">Password</label>
+                                <label className="text-[#1e2d3b] text-sm font-medium mb-2 block">Password</label>
                                 <div className="relative flex items-center">
                                     <input
                                         name="password"
                                         type="password"
                                         required
-                                        className="w-full text-sm text-slate-800 border border-slate-300 pl-4 pr-10 py-3 rounded-lg outline-blue-600"
+                                        className="w-full text-sm text-[#1e2d3b] border border-[#1e2d3b] pl-4 pr-10 py-3 rounded-lg outline-[#FFA726]"
                                         placeholder="Enter password"
                                     />
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" className="w-[18px] h-[18px] absolute right-4 cursor-pointer" viewBox="0 0 128 128">
@@ -64,13 +61,13 @@ const SignUpPage = () => {
                             </div>
 
                             <div>
-                                <label className="text-slate-800 text-sm font-medium mb-2 block">Confirm Password</label>
+                                <label className="text-[#1e2d3b] text-sm font-medium mb-2 block">Confirm Password</label>
                                 <div className="relative flex items-center">
                                     <input
                                         name="confirm-password"
                                         type="password"
                                         required
-                                        className="w-full text-sm text-slate-800 border border-slate-300 pl-4 pr-10 py-3 rounded-lg outline-blue-600"
+                                        className="w-full text-sm text-[#1e2d3b] border border-[#1e2d3b] pl-4 pr-10 py-3 rounded-lg outline-[#FFA726]"
                                         placeholder="Confirm password"
                                     />
                                 </div>
@@ -78,7 +75,7 @@ const SignUpPage = () => {
 
                             <div className="flex flex-wrap items-center justify-between gap-4">
                                 <div className="flex items-center">
-                                    <input id="terms" name="terms" type="checkbox" className="h-4 w-4 shrink-0 text-blue-600 focus:ring-blue-500 border-slate-300 rounded" />
+                                    <input id="terms" name="terms" type="checkbox" className="h-4 w-4 shrink-0 text-[#FFA726] focus:ring-[#FFA726] border-[#1e2d3b] rounded" />
                                     <label htmlFor="terms" className="ml-3 block text-sm text-slate-500">
                                         I agree to the terms and conditions
                                     </label>
@@ -86,12 +83,12 @@ const SignUpPage = () => {
                             </div>
 
                             <div className="!mt-12">
-                                <button type="button" className="w-full shadow-xl py-2.5 px-4 text-[15px] font-medium tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+                                <button type="button" className="w-full shadow-xl py-2.5 px-4 text-[15px] font-medium tracking-wide rounded-lg text-white bg-[#FFA726] hover:bg-[#FFB300] focus:outline-none">
                                     Sign up
                                 </button>
                                 <p className="text-sm !mt-6 text-center text-slate-500">
                                     Already have an account?{' '}
-                                    <a href="javascript:void(0);" className="text-blue-600 font-medium hover:underline ml-1 whitespace-nowrap">
+                                    <a href="javascript:void(0);" className="text-[#1e2d3b] font-medium hover:underline ml-1 whitespace-nowrap">
                                         Sign in here
                                     </a>
                                 </p>

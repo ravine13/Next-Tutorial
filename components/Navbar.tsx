@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="max-w-3xl mx-auto py-4 flex justify-between items-center border-b-2 border-gray-200 shadow-md bg-white">
             <div className="text-xl font-semibold text-gray-800">
                 <Link href="/" className="hover:text-blue-600 transition-colors duration-300">
-                    MyWebsite
+                    Weka Sacco
                 </Link>
             </div>
             <div className="flex gap-x-6">
@@ -17,10 +17,10 @@ function Navbar() {
                     Home
                 </Link>
                 <Link
-                    href="/login"
+                    href="/service"
                     className="text-lg text-gray-700 hover:text-blue-600 transition-colors duration-300"
                 >
-                    Login
+                    Service
                 </Link>
                 <Link
                     href="/about"
@@ -29,10 +29,10 @@ function Navbar() {
                     About
                 </Link>
                 <Link
-                    href="/services"
+                    href="/login"
                     className="text-lg text-gray-700 hover:text-blue-600 transition-colors duration-300"
                 >
-                    Services
+                    Login
                 </Link>
                 <Link
                     href="/signup"
