@@ -9,7 +9,6 @@ function Navbar() {
     return (
         <header className="flex shadow-lg py-4 px-4 sm:px-10 bg-white min-h-[70px] tracking-wide relative z-50">
             <div className="flex flex-wrap items-center justify-between gap-4 w-full">
-
                 {/* Centered Logo */}
                 <div className="flex items-center">
                     <Link href="/" className="text-2xl font-bold text-blue-700">
