@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <footer className="tracking-wide bg-[#1e2d3b] pt-12 pb-4 px-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-screen-xl mx-auto">
+        <footer className="tracking-wide bg-[#1e2d3b] pt-8 pb-2 px-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-screen-xl mx-auto">
                 <div>
-                    <h4 className="text-[#FFA726] font-medium text-sm mb-6">Quick Links</h4>
-                    <ul className="space-y-4">
+                    <h4 className="text-[#FFA726] font-medium text-xs mb-4">Quick Links</h4>
+                    <ul className="space-y-2">
                         <li>
                             <a href="/about-us" className="hover:text-[#FFA726] text-gray-400 text-sm font-normal transition-all">About Us</a>
                         </li>
@@ -21,8 +21,8 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h4 className="text-[#FFA726] font-medium text-sm mb-6">Services</h4>
-                    <ul className="space-y-4">
+                    <h4 className="text-[#FFA726] font-medium text-xs mb-4">Services</h4>
+                    <ul className="space-y-2">
                         <li>
                             <a href="/loans" className="hover:text-[#FFA726] text-gray-400 text-sm font-normal transition-all">Loan Services</a>
                         </li>
@@ -39,8 +39,8 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h4 className="text-[#FFA726] font-medium text-sm mb-6">Resources</h4>
-                    <ul className="space-y-4">
+                    <h4 className="text-[#FFA726] font-medium text-xs mb-4">Resources</h4>
+                    <ul className="space-y-2">
                         <li>
                             <a href="/financial-literacy" className="hover:text-[#FFA726] text-gray-400 text-sm font-normal transition-all">Financial Literacy</a>
                         </li>
@@ -57,8 +57,8 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h4 className="text-[#FFA726] font-medium text-sm mb-6">Contact Us</h4>
-                    <ul className="space-y-4">
+                    <h4 className="text-[#FFA726] font-medium text-xs mb-4">Contact Us</h4>
+                    <ul className="space-y-2">
                         <li>
                             <a href="/contact" className="hover:text-[#FFA726] text-gray-400 text-sm font-normal transition-all">Contact Information</a>
                         </li>
@@ -75,8 +75,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="border-t text-center border-[#6b5f5f] pt-4 mt-8">
-                <p className="text-gray-400 text-sm">
+            <div className="border-t text-center border-[#6b5f5f] pt-2 mt-6">
+                <p className="text-gray-400 text-xs">
                     © 2025 Weka SACCO. All rights reserved.
                 </p>
             </div>
