@@ -20,6 +20,28 @@ function AboutPage() {
                     className="w-full md:w-3/4 lg:w-2/3 mx-auto rounded-lg shadow-xl mb-8"
                 />
 
+                {/* Our Impact by Numbers Section */}
+                <div className="bg-[#1e2d3b] text-white py-16 px-6 rounded-xl shadow-xl mt-12">
+                    <h2 className="text-4xl font-semibold mb-8">Our Impact by Numbers</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                        <div className="bg-[#FFA726] p-8 rounded-xl shadow-xl">
+                            <h3 className="text-4xl font-bold mb-2">50,000+</h3>
+                            <p className="text-lg">Happy Members</p>
+                        </div>
+                        <div className="bg-[#FFA726] p-8 rounded-xl shadow-xl">
+                            <h3 className="text-4xl font-bold mb-2">$120M+</h3>
+                            <p className="text-lg">In Loans Disbursed</p>
+                        </div>
+                        <div className="bg-[#FFA726] p-8 rounded-xl shadow-xl">
+                            <h3 className="text-4xl font-bold mb-2">200+</h3>
+                            <p className="text-lg">Businesses Supported</p>
+                        </div>
+                    </div>
+                    <p className="mt-8 text-lg max-w-3xl mx-auto text-center">
+                        These are just a few numbers that reflect the positive impact we’ve made. Our goal is to continue expanding and supporting more individuals and businesses in their financial journey.
+                    </p>
+                </div>
+
                 <div className="space-y-6 mb-8">
                     {/* Services Section */}
                     <h2 className="text-4xl font-semibold text-[#1e2d3b] mb-4">
